@@ -30,8 +30,9 @@ div.cards-container {
   background-color: darkgray;
   flex-direction: row;
   width: 90%;
+  padding: 15px;
   border-radius: 20px;
-  height: 500px;
+  height: fit-content;
 }
 
 div.card {
@@ -43,7 +44,7 @@ div.card {
   background-color: white;
   border-radius: 20px;
   width: 15%;
-  height: 80%;
+  height: fit-content;
   box-shadow: 10px 10px 1px 1px black;
 }
 
@@ -59,6 +60,7 @@ div.card img {
   object-fit: contain;
   width: 95%;
   height: auto;
+  padding: 10px;
   border-radius: 20px;
 }
 
